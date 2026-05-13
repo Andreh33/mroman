@@ -118,7 +118,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.8, duration: 1.2 }}
-          className="absolute left-6 md:left-10 lg:left-14 top-1/2 -translate-y-1/2 vertical-rl font-sans text-[10px] tracking-[0.5em] uppercase text-gold-deep"
+          className="hidden md:block absolute left-6 md:left-10 lg:left-14 top-1/2 -translate-y-1/2 vertical-rl font-sans text-[10px] tracking-[0.5em] uppercase text-gold-deep"
         >
           <span>N.º 01 — Casa M·Roman</span>
         </motion.div>
@@ -126,7 +126,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.8, duration: 1.2 }}
-          className="absolute right-6 md:right-10 lg:right-14 top-1/2 -translate-y-1/2 vertical-rl font-sans text-[10px] tracking-[0.5em] uppercase text-gold-deep rotate-180"
+          className="hidden md:block absolute right-6 md:right-10 lg:right-14 top-1/2 -translate-y-1/2 vertical-rl font-sans text-[10px] tracking-[0.5em] uppercase text-gold-deep rotate-180"
         >
           <span>MMXXVI — Edición eterna</span>
         </motion.div>

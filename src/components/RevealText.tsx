@@ -58,7 +58,9 @@ function Word({
   const opacity = useTransform(progress, range, [0.12, 1]);
   return (
     <span className="relative mr-[0.28em] mt-2 inline-block">
-      <span className="absolute opacity-15 select-none">{children}</span>
+      {!italic && (
+        <span className="absolute opacity-15 select-none">{children}</span>
+      )}
       <motion.span
         style={{ opacity }}
         className={italic ? "italic text-gold-deep" : ""}
